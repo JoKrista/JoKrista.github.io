@@ -1,0 +1,35 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'MV Boli', sans-serif, arial, helvetica;
+}
+.projectGrid {
+    display:grid;
+    grid-template-areas: "header header header"
+                         ". cat-gif ."
+                         "footer footer footer";
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+.header {
+    grid-area: header;
+}
+.cat-gif {
+    grid-area: cat-gif;
+}
+.footer {
+    grid-area: footer;
+}
+a {
+    margin-right: 35px;
+    transition: transform 0.2x;
+    font-size: 25px;
+}
+a:hover{
+    transform: scale(1.5);
+}
