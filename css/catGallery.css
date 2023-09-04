@@ -1,0 +1,34 @@
+body {
+    max-width: 85%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MV Boli', sans-serif, arial, helvetica;
+}
+.catgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item{
+    border: 10px groove brown;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+img {
+    max-width: 30%;
+}
+a {
+    margin-right: 35px;
+    transition: transform 0.2x;
+    font-size: 25px;
+}
+a:hover{
+    transform: scale(1.5);
+}
