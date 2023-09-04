@@ -26,9 +26,5 @@ img {
 }
 a {
     margin-right: 35px;
-    transition: transform 0.2x;
     font-size: 25px;
-}
-a:hover{
-    transform: scale(1.5);
 }

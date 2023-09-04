@@ -1,0 +1,18 @@
+body {
+    margin: 100px;
+    font-family:'MV Boli', sans-serif, arial, helvetica;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    margin-right: 35px;
+    transition: transform 0.2x;
+    font-size: 25px;
+}
+nav {
+    margin: 30px;
+}
+p {
+    margin: 30px;
+}
